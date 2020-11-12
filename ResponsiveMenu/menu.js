@@ -26,7 +26,7 @@ function hover() {
         let $this = element;
         
         $this.addEventListener('mouseenter', ()=> {
-            $this.querySelector('.submenu').style.display="block";
+            $this.querySelector('.submenu').classList.add('active');
             ulCoords = $this.querySelector('.submenu').getBoundingClientRect().right;
             
             if (ulCoords > menuWrapperWidth) {
@@ -37,7 +37,7 @@ function hover() {
         });
     
         $this.addEventListener('mouseleave', ()=> {
-            $this.querySelector('.submenu').style.display="none";
+            $this.querySelector('.submenu').classList.remove('active');
         });
     });
 }
@@ -48,11 +48,9 @@ window.addEventListener('resize', ()=> {
 
 function hideItems() {
     let widthLimit = menuWrapperWidth,
-        moreButton = doc.createElement('div'),
-        moreContainer = doc.createElement('div'),
-        moreElement = doc.createElement('li'),
-        moreLink = doc.createElement('a'),
-
+        moreElement = doc.createElement('div'),
+        moreButtonElement = doc.createElement('a'),
+        moreContainerElement = doc.createElement('div'),
         itemsToHide = [];
     
     for (let item of menuFirstItems) {
@@ -63,28 +61,34 @@ function hideItems() {
         }
     }
 
-    moreButton.classList.add('more-button');
-    moreContainer.classList.add('more-container');
-    moreElement.classList.add('more-element');
-    moreLink.classList.add('more-link');
+    moreElement.classList.add('more-btn');
+    moreContainerElement.classList.add('more-container');
 
-    menu.append(moreButton);
-    moreButton.append(moreContainer);
+    menu.append(moreElement);
+    moreElement.append(moreButtonElement);
+    moreElement.append(moreContainerElement);
+
+    moreButtonElement.href="#";
+    moreButtonElement.innerHTML="...";
 
     for (let item in itemsToHide) {
-        moreContainer.append(itemsToHide[item]);
+        moreContainerElement.append(itemsToHide[item]);
     }
+    
+    let moreButton = doc.querySelector('.more-btn'),
+        moreContainer = doc.querySelector('.more-container'),
+        moreItems = moreContainer.querySelectorAll('li');
 
-    let moreBtn = doc.querySelector('.more-button')
-        moreCon = doc.querySelector('.more-container');
-        
-
-    moreBtn.addEventListener('mouseenter', ()=> {
-        moreCon.style.display="block";
+    moreItems.forEach(item => {
+        item.classList.add('more-item');
     });
 
-    moreBtn.addEventListener('mouseleave', ()=> {
-        moreCon.style.display="none";
+    moreButton.addEventListener('mouseenter', ()=> {
+        moreContainerElement.classList.add('active');
+    });
+
+    moreButton.addEventListener('mouseleave', ()=> {
+        moreContainer.classList.remove('active');
     });
 }
 
