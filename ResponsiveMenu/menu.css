@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #272727;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+   padding: 20px;
+}
+
+.container-inner {
+    position: relative;
+    max-width: 1023px;
+    margin: 0 auto;
+}
+
+.container-body {
+    margin-top: 15px;
+    width: 100%;
+    height: 500px;
+    border-radius: 5px;
+    background: url(img.png) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    position: relative;
+    max-width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: rgb(59, 59, 59);
+}
+
+.menu-list {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.menu-list > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-list > li > a {
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.submenu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1;
+    width: 180px;
+    transition: 0.3s;
+    border-radius: 5px;
+    background: rgb(59, 59, 59);
+    box-shadow: 0 0 10px 0 #646464;
+    display: none;
+}
+
+.submenu ul {
+    top: 5px;
+    left: 100%;
+}
+
+.submenu ul.left {
+    left: auto;
+    right: 100%;
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu a {
+    display: block;
+    padding: 3px 10px;  
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.more {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.more-btn {
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+}
+
+.more-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background: #000;
+}
+
+.more-container {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 1;
+    width: 180px;
+    padding: 15px;
+    transition: 0.3s;
+    border-radius: 5px;
+    background: rgb(59, 59, 59);
+    box-shadow: 0 0 10px 0 #646464;
+    display: none;
+}
+
+
+
