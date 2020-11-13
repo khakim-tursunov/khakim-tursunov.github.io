@@ -90,6 +90,11 @@ ul {
     right: calc(100% - -15px);
 }
 
+.submenu ul.right {
+    left: calc(100% - -15px);
+    right: auto;
+}
+
 .submenu li {
     position: relative;
 }
@@ -138,6 +143,7 @@ ul {
 }
 
 .more-container li {
+    position: relative;
     list-style: none;
 }
 
@@ -148,3 +154,8 @@ ul {
     text-decoration: none;
 }
 
+.more-container .submenu {
+    top: -5px;
+    left: auto;
+    right: calc(100% - -15px);
+}

@@ -27,13 +27,14 @@ function hover() {
         
         $this.addEventListener('mouseenter', ()=> {
             $this.querySelector('.submenu').classList.add('active');
-            ulRightCoords = $this.querySelector('.submenu').getBoundingClientRect().right;
-            ulLeftCoords = $this.querySelector('.submenu').getBoundingClientRect().left;
+            ulCoords = $this.querySelector('.submenu').getBoundingClientRect().right;
             
-            if (ulRightCoords || ulLeftCoords > menuWrapperWidth) {
+            if (ulCoords > menuWrapperWidth) {
+                $this.querySelector('.submenu').classList.remove('right');
                 $this.querySelector('.submenu').classList.add('left');
-            } else if (ulCoords < 0) {
+            } else if (ulCoords < 150) {
                 $this.querySelector('.submenu').classList.remove('left');
+                $this.querySelector('.submenu').classList.add('right');
             }
         });
     
