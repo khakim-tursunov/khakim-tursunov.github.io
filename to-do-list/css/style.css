@@ -17,7 +17,7 @@ body{
     width: 100%;
     height:200px;
     border-bottom: 1px solid  rgba(255, 255, 255, 0.1);
-    background: url(/icons/svg.svg) 50% / 80% no-repeat #3f51b5;
+    background: url(../icons/svg.svg) 50% / 80% no-repeat #3f51b5;
 }
 
 .refresh {
@@ -26,7 +26,7 @@ body{
     top: 20px;
     width : 30px;
     height: 30px;
-    background: url(/icons/refresh.png);
+    background: url(../icons/refresh.png);
 }
 
 #date{
@@ -95,7 +95,7 @@ body{
 
 .list-block__item-done[done] {
     box-shadow: unset;
-    background: url(/icons/done.png) 50% / 110% no-repeat #ffffff;
+    background: url(../icons/done.png) 50% / 110% no-repeat #ffffff;
 }
 
 .list-block__item-done[done] + .list-block__item-text{
@@ -115,7 +115,7 @@ body{
     width: 25px;
     height: 25px;
     margin-left: auto;
-    background: url(/icons/remove.png) 50% / cover no-repeat;
+    background: url(../icons/remove.png) 50% / cover no-repeat;
 }
 
 .list-block__add {
