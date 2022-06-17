@@ -1,0 +1,161 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #24292e;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+   padding: 20px;
+}
+
+.container-inner {
+    position: relative;
+    max-width: 1023px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container-body {
+    margin-top: 15px;
+    width: 100%;
+    height: 80vh;
+    border-radius: 5px;
+    background: url(img.jpg) 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+.menu-list {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.menu-list > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-list > li > a {
+    padding: 5px 10px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.submenu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 1;
+    padding: 15px;
+    width: 180px;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 0 5px 0 #3b3b3b;
+}
+
+.submenu.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.submenu ul {
+    top: 5px;
+    left: calc(100% - -15px);
+}
+
+.submenu ul.left {
+    left: auto;
+    right: calc(100% - -15px);
+}
+
+.submenu ul.right {
+    left: calc(100% - -15px);
+    right: auto;
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu a { 
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.more-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.more-btn > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.more-container {
+    position: absolute;
+    top: calc(100% - 15px);
+    right: 0;
+    z-index: 1;
+    padding: 15px;
+    width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 0 0 5px 0 #3b3b3b;
+}
+
+.more-container.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.more-container li {
+    position: relative;
+    list-style: none;
+}
+
+.more-container a {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.more-container .submenu {
+    top: -5px;
+    left: auto;
+    right: calc(100% - -15px);
+}
