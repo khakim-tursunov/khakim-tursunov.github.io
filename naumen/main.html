@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="acfstyles.css">
+    <link rel="stylesheet" href="elements.css">
+    <style type="text/css">
+        #acf_h1 .header-cell {
+            background-color: #99AAAA
+        }
+
+        #acf_p1 td {
+            background-color: transparent
+        }
+
+        #acf_fh1>tbody>tr {
+            background-color: #F8F8F8
+        }
+    </style>
+    <title>Naumen Тренажер</title>
+</head>
+
+<body>
+    <form id="naurp_form"><input type="hidden" id="currentStep" name="currentStep"
+            value="advcgt00000000000p7nt5phmkgno15s">
+        <table class="fields-table" id="acf_ft1" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td class="fields-table-cell" width="100%">
+                        <table style="width:100%;height:auto;" class="fields-holder " id="acf_fh1" cellspacing="1">
+                            <tbody>
+                                <tr id="acf_h1" class="header">
+                                    <td class="header-cell" colspan="2"><ncc-cf-header fontsize="medium"
+                                            backgroundcolor="#99AAAA">Тренажер Наумер</ncc-cf-header></td>
+                                </tr>
+                                <tr id="acf_caller" class="attribute" data-full-attr-id="default-caller">
+                                    <td class="field-title" width="30%"><label
+                                            for="cfattr00000000000p7nt5phd5mhjqr0">Номер клиента</label></td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <div id="cfattr00000000000p7nt5phd5mhjqr0_view" class="b-form__input_disabled">
+                                        </div>
+                                        <input type="hidden" id="cfattr00000000000p7nt5phd5mhjqr0"
+                                            name="cfattr00000000000p7nt5phd5mhjqr0" value="">
+                                    </td>
+                                </tr>
+                                <tr id="acf_Klassifikaciya" class="attribute"
+                                    data-full-attr-id="default-Klassifikaciya">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label
+                                            for="cfattr00000000000p7osk4454j8op3k">Классификация обращения</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <table id="cfattr00000000000p7osk4454j8op3k" class="b-form_search">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+
+                                                        <select id="sel_cfattr00000000000p7osk4454j8op3k"
+                                                            name="sel_cfattr00000000000p7osk4454j8op3k"
+                                                            class="paged-select selectBox selectBox-dropdown" style="display: block;">
+                                                            <option value="__empty__"
+                                                                style="background: rgb(237, 255, 237);">[не указано]
+                                                            </option>
+                                                            <option value="ci000000000p7vdc5ii18lkru8">Мобильная связь
+                                                            </option>
+                                                            <option value="ci000000000p7vdc483lulc8fc">ШПД</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td id="pl_cfattr00000000000p7osk4454j8op3k"
+                                                        style="display: block;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Tip_abonenta" class="attribute" data-full-attr-id="default-Tip_abonenta">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label for="cfattr00000000000p7nt5pglgupvqt8">Тип
+                                            абонента</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <table id="cfattr00000000000p7nt5pglgupvqt8" class="b-form_search">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+
+                                                        <select id="sel_cfattr00000000000p7nt5pglgupvqt8"
+                                                            name="sel_cfattr00000000000p7nt5pglgupvqt8"
+                                                            class="paged-select selectBox selectBox-dropdown" style="display: block;">
+                                                            <option value="__empty__"
+                                                                style="background: rgb(237, 255, 237);">[не указано]
+                                                            </option>
+                                                            <option value="ci000000000p7vdc485k7i8pp4">Действующий
+                                                            </option>
+                                                            <option value="ci000000000p7vdc5i0kntm194">Новый</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td id="pl_cfattr00000000000p7nt5pglgupvqt8"
+                                                        style="display: block;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Uroven_1" class="attribute" data-full-attr-id="default-Uroven_1">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label for="cfattr00000000000p7nt5pgolj0jcu8">Уровень
+                                            1</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <table id="cfattr00000000000p7nt5pgolj0jcu8" class="b-form_search">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+
+                                                        <select id="sel_cfattr00000000000p7nt5pgolj0jcu8"
+                                                            name="sel_cfattr00000000000p7nt5pgolj0jcu8"
+                                                            class="paged-select selectBox selectBox-dropdown" style="display: block;">
+                                                            <option value="__empty__"
+                                                                style="background: rgb(237, 255, 237);">[не указано]
+                                                            </option>
+                                                            <option value="ci000000000p7vdc48645vql94">Конвергент
+                                                            </option>
+                                                            <option value="ci000000000p7vdc59aief724o">Моно</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td id="pl_cfattr00000000000p7nt5pgolj0jcu8"
+                                                        style="display: block;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Uroven_2" class="attribute" data-full-attr-id="default-Uroven_2">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label for="cfattr00000000000p7nt5pgqhjl52f4">Уровень
+                                            2</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <table id="cfattr00000000000p7nt5pgqhjl52f4" class="b-form_search">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+
+                                                        <select id="sel_cfattr00000000000p7nt5pgqhjl52f4"
+                                                            name="sel_cfattr00000000000p7nt5pgqhjl52f4"
+                                                            class="paged-select selectBox selectBox-dropdown" style="display: block;">
+                                                            <option value="__empty__"
+                                                                style="background: rgb(237, 255, 237);">[не указано]
+                                                            </option>
+                                                            <option value="ci000000000p7vdc4871uqki7c">Консультация
+                                                            </option>
+                                                            <option value="ci000000000p7vdc4hknvhhs7g">Претензия
+                                                            </option>
+                                                            <option value="ci000000000p7vdc5817qkda10">Сервисное
+                                                                обслуживание</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td id="pl_cfattr00000000000p7nt5pgqhjl52f4"
+                                                        style="display: block;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Uroven_3_" class="attribute" data-full-attr-id="default-Uroven_3_">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label for="cfattr00000000000p7nt5pgs22hrs4g">Уровень
+                                            3</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <table id="cfattr00000000000p7nt5pgs22hrs4g" class="b-form_search">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+
+                                                        <select id="sel_cfattr00000000000p7nt5pgs22hrs4g"
+                                                            name="sel_cfattr00000000000p7nt5pgs22hrs4g"
+                                                            class="paged-select selectBox selectBox-dropdown" style="display: block;">
+                                                            <option value="__empty__"
+                                                                style="background: rgb(237, 255, 237);">[не указано]
+                                                            </option>
+                                                            <option value="ci000000000p7vdc5684n1lfcs">Волна Sale
+                                                            </option>
+                                                            <option value="ci000000000p7vdc4hl5h4sdf8">Жалоба на
+                                                                качество обслуживания</option>
+                                                            <option value="ci000000000p7vdc4hpkdju7e0">Жалоба на
+                                                                технического специалиста</option>
+                                                            <option value="ci000000000p7vdc4inm73apo0">Качество ТВ
+                                                            </option>
+                                                            <option value="ci000000000p7vdc4i9l14fnc8">Качество
+                                                                домашнего интернета</option>
+                                                            <option value="ci000000000p7vdc4hrjarqs8s">Качество
+                                                                мобильной связи</option>
+                                                            <option value="ci000000000p7vdc56j6fvsr8k">ЛК/МП</option>
+                                                            <option value="ci000000000p7vdc5745a6im7s">Не работают
+                                                                USSD-запросы</option>
+                                                            <option value="ci000000000p7vdc4j0jn9o0jk">Тарифы</option>
+                                                            <option value="ci000000000p7vdc5753iabrlk">Финансовые
+                                                                вопросы</option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td id="pl_cfattr00000000000p7nt5pgs22hrs4g"
+                                                        style="display: block;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Uroven_4" class="attribute" data-full-attr-id="default-Uroven_4">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label for="cfattr00000000000p7nt5pgth4vestk">Уровень
+                                            4</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <table id="cfattr00000000000p7nt5pgth4vestk" class="b-form_search">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+
+                                                        <select id="sel_cfattr00000000000p7nt5pgth4vestk"
+                                                            name="sel_cfattr00000000000p7nt5pgth4vestk"
+                                                            class="paged-select selectBox selectBox-dropdown" style="display: block;">
+                                                            <option value="__empty__"
+                                                                style="background: rgb(237, 255, 237);">[не указано]
+                                                            </option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td id="pl_cfattr00000000000p7nt5pgth4vestk"
+                                                        style="display: block;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Uroven_5" class="attribute" data-full-attr-id="default-Uroven_5">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label for="cfattr00000000000p7nt5pgv5ikg400">Уровень
+                                            5</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <table id="cfattr00000000000p7nt5pgv5ikg400" class="b-form_search">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+
+                                                        <select id="sel_cfattr00000000000p7nt5pgv5ikg400"
+                                                            name="sel_cfattr00000000000p7nt5pgv5ikg400"
+                                                            class="paged-select selectBox selectBox-dropdown" style="display: block;">
+                                                            <option value="__empty__"
+                                                                style="background: rgb(237, 255, 237);">[не указано]
+                                                            </option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td id="pl_cfattr00000000000p7nt5pgv5ikg400"
+                                                        style="display: block;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Uroven_6" class="attribute" data-full-attr-id="default-Uroven_6">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label for="cfattr00000000000p7nt5phaju9efs0">Уровень
+                                            6</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <table id="cfattr00000000000p7nt5phaju9efs0" class="b-form_search">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+
+                                                        <select id="sel_cfattr00000000000p7nt5phaju9efs0"
+                                                            name="sel_cfattr00000000000p7nt5phaju9efs0"
+                                                            class="paged-select selectBox selectBox-dropdown" style="display: block;">
+                                                            <option value="__empty__"
+                                                                style="background: rgb(237, 255, 237);">[не указано]
+                                                            </option>
+                                                        </select>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+
+                                                    <td id="pl_cfattr00000000000p7nt5phaju9efs0"
+                                                        style="display: block;">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Predlojil_SHPD" class="attribute"
+                                    data-full-attr-id="default-Predlojil_SHPD">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label
+                                            for="cfattr00000000000p7nt5ph141upjqo">Предложил ШПД</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <input type="hidden" name="cfattr00000000000p7nt5ph141upjqo__exists" value="1">
+                                        <table class="b-radiobuttons">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="Да"
+                                                            name="cfattr00000000000p7nt5ph141upjqo" value="Да"
+                                                            class="b-form__radio">
+                                                        <label for="Да">Да</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="Нет"
+                                                            name="cfattr00000000000p7nt5ph141upjqo" value="Нет"
+                                                            class="b-form__radio" checked="checked">
+                                                        <label for="Нет">Нет</label>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Prichina_otkaza" class="attribute"
+                                    data-full-attr-id="default-Prichina_otkaza">
+                                    <td class="field-title" width="30%"><label
+                                            for="cfattr00000000000p7nt5ph2hhdossk">Причина отказа</label></td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <input type="hidden" name="cfattr00000000000p7nt5ph2hhdossk__exists" value="1">
+                                        <table class="b-radiobuttons">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="" class="b-form__radio">
+                                                        <label>[не указано]</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="1. Дорого.   "
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="1. Дорого.   " class="b-form__radio">
+                                                        <label for="1. Дорого.   ">1. Дорого. </label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="2.Нет удобного тайм-слота. "
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="2.Нет удобного тайм-слота. " class="b-form__radio">
+                                                        <label for="2.Нет удобного тайм-слота. ">2.Нет удобного
+                                                            тайм-слота. </label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="3.Плохие отзывы о компании. "
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="3.Плохие отзывы о компании. " class="b-form__radio">
+                                                        <label for="3.Плохие отзывы о компании. ">3.Плохие отзывы о
+                                                            компании. </label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="4. Плохой пакет ТВ-каналов. "
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="4. Плохой пакет ТВ-каналов. " class="b-form__radio">
+                                                        <label for="4. Плохой пакет ТВ-каналов. ">4. Плохой пакет
+                                                            ТВ-каналов. </label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="5. Нет потребности в технологии Gpon "
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="5. Нет потребности в технологии Gpon "
+                                                            class="b-form__radio">
+                                                        <label for="5. Нет потребности в технологии Gpon ">5. Нет
+                                                            потребности в технологии Gpon </label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="6. Услугой не пользуются. "
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="6. Услугой не пользуются. " class="b-form__radio">
+                                                        <label for="6. Услугой не пользуются. ">6. Услугой не
+                                                            пользуются. </label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="7.Cъемная квартира."
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="7.Cъемная квартира." class="b-form__radio">
+                                                        <label for="7.Cъемная квартира.">7.Cъемная квартира.</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="8. Надо подумать."
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="8. Надо подумать." class="b-form__radio">
+                                                        <label for="8. Надо подумать.">8. Надо подумать.</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="10. Устраивает текущий провайдер."
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="10. Устраивает текущий провайдер."
+                                                            class="b-form__radio">
+                                                        <label for="10. Устраивает текущий провайдер.">10. Устраивает
+                                                            текущий провайдер.</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="11. Нет ТВ"
+                                                            name="cfattr00000000000p7nt5ph2hhdossk" value="11. Нет ТВ"
+                                                            class="b-form__radio">
+                                                        <label for="11. Нет ТВ">11. Нет ТВ</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="12. Заявка"
+                                                            name="cfattr00000000000p7nt5ph2hhdossk" value="12. Заявка"
+                                                            class="b-form__radio">
+                                                        <label for="12. Заявка">12. Заявка</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="13. Клиент бросил трубку"
+                                                            name="cfattr00000000000p7nt5ph2hhdossk"
+                                                            value="13. Клиент бросил трубку" class="b-form__radio">
+                                                        <label for="13. Клиент бросил трубку">13. Клиент бросил
+                                                            трубку</label>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Rezultat_dialoga" class="attribute"
+                                    data-full-attr-id="default-Rezultat_dialoga">
+                                    <td class="field-title" width="30%"><label
+                                            for="cfattr00000000000p7nt5ph4gufcn60">Результат диалога</label></td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <input type="hidden" id="cfattr00000000000p7nt5ph4gufcn60__exists"
+                                            name="cfattr00000000000p7nt5ph4gufcn60__exists" value="1">
+
+
+
+
+                                        <select id="cfattr00000000000p7nt5ph4gufcn60"
+                                            name="cfattr00000000000p7nt5ph4gufcn60" class="b-form__select selectBox selectBox-dropdown"
+                                            size="1" autocomplete="off" style="display: block;">
+
+                                            <option value="" title="[не указано]" nonshifted="[не указано]">[не указано]
+                                            </option>
+
+                                            <option value="Консультация - вопрос решен"
+                                                title="Консультация - вопрос решен"
+                                                nonshifted="Консультация - вопрос решен">Консультация - вопрос решен
+                                            </option>
+
+                                            <option value="Консультация -   вопрос не решен (клиента не устроил ответ)"
+                                                title="Консультация -   вопрос не решен (клиента не устроил ответ)"
+                                                nonshifted="Консультация -   вопрос не решен (клиента не устроил ответ)">
+                                                Консультация - вопрос не решен (клиента не устроил ответ)</option>
+
+                                            <option value="Консультация – вопрос не решен (заявка)"
+                                                title="Консультация – вопрос не решен (заявка)"
+                                                nonshifted="Консультация – вопрос не решен (заявка)"
+                                                selected="selected">Консультация – вопрос не решен (заявка)</option>
+
+                                            <option value="Негатив – вопрос решен" title="Негатив – вопрос решен"
+                                                nonshifted="Негатив – вопрос решен">Негатив – вопрос решен</option>
+
+                                            <option value="Негатив - заявка" title="Негатив - заявка"
+                                                nonshifted="Негатив - заявка">Негатив - заявка</option>
+
+                                            <option value="Жалоба/Претензия" title="Жалоба/Претензия"
+                                                nonshifted="Жалоба/Претензия">Жалоба/Претензия</option>
+
+                                        </select>
+
+
+                                    </td>
+                                </tr>
+                                <tr id="acf_Rezultat_kross-prodaji" class="attribute"
+                                    data-full-attr-id="default-Rezultat_kross-prodaji">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label
+                                            for="cfattr00000000000p7nt5ph6nj4qsks">Результат кросс-продажи</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <input type="hidden" id="cfattr00000000000p7nt5ph6nj4qsks__exists"
+                                            name="cfattr00000000000p7nt5ph6nj4qsks__exists" value="1">
+
+
+
+
+                                        <select id="cfattr00000000000p7nt5ph6nj4qsks"
+                                            name="cfattr00000000000p7nt5ph6nj4qsks" class="b-form__select selectBox selectBox-dropdown"
+                                            size="1" autocomplete="off" style="display: block;">
+
+                                            <option value="" title="[не указано]" nonshifted="[не указано]">[не указано]
+                                            </option>
+
+                                            <option value="Заявка" title="Заявка" nonshifted="Заявка">Заявка</option>
+
+                                            <option value="отказ – подумает" title="отказ – подумает"
+                                                nonshifted="отказ – подумает">отказ – подумает</option>
+
+                                            <option value="отказ – не подходят условия (причина в комментариях)"
+                                                title="отказ – не подходят условия (причина в комментариях)"
+                                                nonshifted="отказ – не подходят условия (причина в комментариях)">отказ
+                                                – не подходят условия (причина в комментариях)</option>
+
+                                            <option value="отказ – уже пользуется услугой"
+                                                title="отказ – уже пользуется услугой"
+                                                nonshifted="отказ – уже пользуется услугой" selected="selected">отказ –
+                                                уже пользуется услугой</option>
+
+                                            <option value="Не предлагали (причина в комментариях)"
+                                                title="Не предлагали (причина в комментариях)"
+                                                nonshifted="Не предлагали (причина в комментариях)">Не предлагали
+                                                (причина в комментариях)</option>
+
+                                        </select>
+
+
+                                    </td>
+                                </tr>
+                                <tr id="acf_Abonent_uderjan" class="attribute"
+                                    data-full-attr-id="default-Abonent_uderjan">
+                                    <td class="field-title" width="30%">
+                                        <font color="red">*</font><label for="cfattr00000000000p7nt5ph9jftcc20">Абонент
+                                            удержан?</label>
+                                    </td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <input type="hidden" name="cfattr00000000000p7nt5ph9jftcc20__exists" value="1">
+                                        <table class="b-radiobuttons">
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="не требовалось"
+                                                            name="cfattr00000000000p7nt5ph9jftcc20"
+                                                            value="не требовалось" class="b-form__radio"
+                                                            checked="checked">
+                                                        <label for="не требовалось">не требовалось</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="да"
+                                                            name="cfattr00000000000p7nt5ph9jftcc20" value="да"
+                                                            class="b-form__radio">
+                                                        <label for="да">да</label>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" id="нет"
+                                                            name="cfattr00000000000p7nt5ph9jftcc20" value="нет"
+                                                            class="b-form__radio">
+                                                        <label for="нет">нет</label>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr id="acf_tf1" class="text-field">
+                                    <td colspan="2" style="width: 100%;height: 100px" tabindex="0">
+                                        <pre>Поле комментарий должно быть заполнено при выборе в любом из уровней "Комментарий".
+    Если не нашли соответствующую тематику, то в комментарии нужно описать, что именно было в звонке и с каким вопросом обратился клиент.</pre>
+                                    </td>
+                                </tr>
+                                <tr id="acf_Kommentarii" class="attribute" data-full-attr-id="default-Kommentarii">
+                                    <td class="field-title" width="30%"><label
+                                            for="cfattr00000000000p7nt5ph87fr7i50">Комментарий</label></td>
+                                    <td>
+                                        <div class="message-holder"></div>
+                                        <textarea wrap="off" id="cfattr00000000000p7nt5ph87fr7i50"
+                                            name="cfattr00000000000p7nt5ph87fr7i50" rows="5"
+                                            cols="50">Нестабильный ДИ перевод на 2 линию</textarea>
+
+                                    </td>
+                                </tr>
+                                <tr id="acf_dr1" class="direct-redirection">
+                                    <td colspan="2"><ncc-cf-direct-redirection-panel disconnectbutton="" holdbutton=""
+                                            redirectbutton="" terminatebutton="" redirection="SELECTABLE"
+                                            number="2634876238423" contacttitle="Вторая линия"
+                                            redirectionoptions="[{&quot;title&quot;:&quot;Перенаправление&quot;,&quot;value&quot;:&quot;TRANSFER&quot;},{&quot;title&quot;:&quot;Перенаправление с консультацией&quot;,&quot;value&quot;:&quot;CONSULTATION_TRANSFER&quot;},{&quot;title&quot;:&quot;Перенаправление с конференцией&quot;,&quot;value&quot;:&quot;CONFERENCE_TRANSFER&quot;}]"
+                                            chosencontact="pbcper00000000000p7nt5jnakf99h78"
+                                            chosenredirectionoption="TRANSFER"><!----><ncc-cf-fieldset
+                                                header="Перенаправить на номер"><!--?lit$7238677364$-->
+                                                <div class="dr-panel__top-section"><!--?lit$7238677364$-->Переадресация
+                                                    на Вторая линия</div>
+                                                <div class="dr-panel__center-section"><!--?lit$7238677364$--><select
+                                                        id="manual-call-type " class="selectBox"
+                                                        style="display: block;"><!--?lit$7238677364$--><!---->
+                                                        <option value="TRANSFER" selected="">
+                                                            <!--?lit$7238677364$-->Перенаправление</option>
+                                                        <!----><!---->
+                                                        <option value="CONSULTATION_TRANSFER">
+                                                            <!--?lit$7238677364$-->Перенаправление с консультацией
+                                                        </option><!----><!---->
+                                                        <option value="CONFERENCE_TRANSFER">
+                                                            <!--?lit$7238677364$-->Перенаправление с конференцией
+                                                        </option><!---->
+                                                    </select>
+                                                </div>
+                                                <div><!--?lit$7238677364$--><input id="redir-call-proxy" type="button"
+                                                        value="Перенаправить"> <!--?lit$7238677364$--><input
+                                                        id="hold-on-call-" type="button"
+                                                        value="Поставить/снять с удержания">
+                                                    <!--?lit$7238677364$--><input id="terminate-redir-" type="button"
+                                                        value="Прервать перенаправление"> <!--?lit$7238677364$--><input
+                                                        id="finish-redir-" type="button"
+                                                        value="Отключиться от конференции"></div>
+                                            </ncc-cf-fieldset></ncc-cf-direct-redirection-panel></td>
+                                </tr>
+                                <tr id="acf_acp1" class="adjourn-control-panel">
+                                    <td colspan="2" style="width:100%;"><ncc-cf-adjourn-panel mode="extended"
+                                            type="call" time="21:42" date="31.01.2025"
+                                            timezoneoptions="[{&quot;title&quot;:&quot;GMT&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofcm5u3g7g&quot;},{&quot;title&quot;:&quot;GMT+01:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofbhtl200o&quot;},{&quot;title&quot;:&quot;GMT+02:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofa7k5kg98&quot;},{&quot;title&quot;:&quot;GMT+03:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkof90n6fo8g&quot;},{&quot;title&quot;:&quot;GMT+04:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkof7laafp58&quot;},{&quot;title&quot;:&quot;GMT+05:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkof6511no0k&quot;},{&quot;title&quot;:&quot;GMT+06:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkof577hscqo&quot;},{&quot;title&quot;:&quot;GMT+07:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkof3ite3mgo&quot;},{&quot;title&quot;:&quot;GMT+08:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkof27cdd7nc&quot;},{&quot;title&quot;:&quot;GMT+09:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkof17hhg6s0&quot;},{&quot;title&quot;:&quot;GMT+10:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkoevk3q1qu0&quot;},{&quot;title&quot;:&quot;GMT+11:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkoeu3ofscnc&quot;},{&quot;title&quot;:&quot;GMT+12:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkoet3kmo210&quot;},{&quot;title&quot;:&quot;GMT+13:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkoeriiraagg&quot;},{&quot;title&quot;:&quot;GMT+14:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkoepgvnvor8&quot;},{&quot;title&quot;:&quot;GMT-01:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofe2484en0&quot;},{&quot;title&quot;:&quot;GMT-02:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkoff08j8af4&quot;},{&quot;title&quot;:&quot;GMT-03:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofgg7i2keg&quot;},{&quot;title&quot;:&quot;GMT-04:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofhkhlbh2g&quot;},{&quot;title&quot;:&quot;GMT-05:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofig4rutd0&quot;},{&quot;title&quot;:&quot;GMT-06:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofk2u01ms8&quot;},{&quot;title&quot;:&quot;GMT-07:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofl7hj2kis&quot;},{&quot;title&quot;:&quot;GMT-08:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofmj9tgsos&quot;},{&quot;title&quot;:&quot;GMT-09:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofnj3r2gdk&quot;},{&quot;title&quot;:&quot;GMT-10:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofoif816b0&quot;},{&quot;title&quot;:&quot;GMT-11:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofq7qra99c&quot;},{&quot;title&quot;:&quot;GMT-12:00&quot;,&quot;value&quot;:&quot;pstcim00000000000njqmkofr73cit4s&quot;}]"
+                                            enablephonenumberstimezone="" useadjourn="" usesharedpool="" usecallback=""
+                                            phone="" comment=""><!----><ncc-cf-fieldset
+                                                header="Отложить вызов"><!--?lit$7238677364$-->
+                                                <div class="ncc-cf__table">
+                                                    <div class="ncc-cf__row"><label class="ncc-cf__cell ncc-cf__header"
+                                                            for="transition_time"><!--?lit$7238677364$-->На
+                                                            время</label> <label class="ncc-cf__cell ncc-cf__header"
+                                                            for="transition_date"><!--?lit$7238677364$-->На дату</label>
+                                                        <!--?lit$7238677364$--><label
+                                                            class="ncc-cf__cell ncc-cf__header"
+                                                            for="transition_phone"><!--?lit$7238677364$-->Номер</label>
+                                                        <!--?lit$7238677364$--><label
+                                                            class="ncc-cf__cell ncc-cf__header"
+                                                            for="transition_phone_timezone"><!--?lit$7238677364$-->Часовой
+                                                            пояс номера телефона</label><!--?--></div>
+                                                    <div class="ncc-cf__row">
+                                                        <div class="ncc-cf__cell"><input type="text" size="8"
+                                                                maxlength="5" id="transition_time"
+                                                                name="transition_time"></div>
+                                                        <div class="ncc-cf__cell"><input type="text" size="11"
+                                                                maxlength="10" id="transition_date"
+                                                                name="transition_date"></div><!--?lit$7238677364$-->
+                                                        <div class="ncc-cf__cell"><input type="text" size="30"
+                                                                maxlength="254" id="transition_phone"
+                                                                name="transition_phone"></div><!--?lit$7238677364$-->
+                                                        <div class="ncc-cf__cell"><select id="transition_phone_timezone"
+                                                                name="transition_phone_timezone" class="selectBox"
+                                                                style="display: none;">
+                                                                <option value="" selected=""><!--?lit$7238677364$-->[не
+                                                                    указано]</option><!--?lit$7238677364$--><!---->
+                                                                <option value="pstcim00000000000njqmkofcm5u3g7g">
+                                                                    <!--?lit$7238677364$-->GMT</option><!----><!---->
+                                                                <option value="pstcim00000000000njqmkofbhtl200o">
+                                                                    <!--?lit$7238677364$-->GMT+01:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofa7k5kg98">
+                                                                    <!--?lit$7238677364$-->GMT+02:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkof90n6fo8g">
+                                                                    <!--?lit$7238677364$-->GMT+03:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkof7laafp58">
+                                                                    <!--?lit$7238677364$-->GMT+04:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkof6511no0k">
+                                                                    <!--?lit$7238677364$-->GMT+05:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkof577hscqo">
+                                                                    <!--?lit$7238677364$-->GMT+06:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkof3ite3mgo">
+                                                                    <!--?lit$7238677364$-->GMT+07:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkof27cdd7nc">
+                                                                    <!--?lit$7238677364$-->GMT+08:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkof17hhg6s0">
+                                                                    <!--?lit$7238677364$-->GMT+09:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkoevk3q1qu0">
+                                                                    <!--?lit$7238677364$-->GMT+10:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkoeu3ofscnc">
+                                                                    <!--?lit$7238677364$-->GMT+11:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkoet3kmo210">
+                                                                    <!--?lit$7238677364$-->GMT+12:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkoeriiraagg">
+                                                                    <!--?lit$7238677364$-->GMT+13:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkoepgvnvor8">
+                                                                    <!--?lit$7238677364$-->GMT+14:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofe2484en0">
+                                                                    <!--?lit$7238677364$-->GMT-01:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkoff08j8af4">
+                                                                    <!--?lit$7238677364$-->GMT-02:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofgg7i2keg">
+                                                                    <!--?lit$7238677364$-->GMT-03:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofhkhlbh2g">
+                                                                    <!--?lit$7238677364$-->GMT-04:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofig4rutd0">
+                                                                    <!--?lit$7238677364$-->GMT-05:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofk2u01ms8">
+                                                                    <!--?lit$7238677364$-->GMT-06:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofl7hj2kis">
+                                                                    <!--?lit$7238677364$-->GMT-07:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofmj9tgsos">
+                                                                    <!--?lit$7238677364$-->GMT-08:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofnj3r2gdk">
+                                                                    <!--?lit$7238677364$-->GMT-09:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofoif816b0">
+                                                                    <!--?lit$7238677364$-->GMT-10:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofq7qra99c">
+                                                                    <!--?lit$7238677364$-->GMT-11:00</option>
+                                                                <!----><!---->
+                                                                <option value="pstcim00000000000njqmkofr73cit4s">
+                                                                    <!--?lit$7238677364$-->GMT-12:00</option><!---->
+                                                            </select><a class="selectBox selectBox-dropdown" title=""
+                                                                tabindex="0" id="transition_phone_timezone_box"
+                                                                style="width: 111.6px; display: inline-block;"><span
+                                                                    class="selectBox-label" title="[не указано]"
+                                                                    style="width: 80.6px;">[не указано]</span><span
+                                                                    class="selectBox-arrow"></span></a></div><!--?-->
+                                                    </div>
+                                                </div>
+                                                <div class="ncc-cf__table">
+                                                    <div class="ncc-cf__row">
+                                                        <div class="ncc-cf__cell"><!--?lit$7238677364$--><button
+                                                                id="adjourn"
+                                                                name="adjourn" type="button"><!--?lit$7238677364$-->Отложить
+                                                                себе</button> <input type="hidden" .value="0"
+                                                                id="hidden_adjourn" name="hidden__adjourn">
+                                                            <!--?lit$7238677364$--><button id="to-shared-pool"
+                                                                name="to-shared-pool" type="button"><!--?lit$7238677364$-->Отложить в
+                                                                общий пул</button> <input type="hidden" .value="0"
+                                                                id="hidden_to-shared-pool"
+                                                                name="hidden__to-shared-pool">
+                                                            <!--?lit$7238677364$--><button id="callback"
+                                                                name="callback" type="button"><!--?lit$7238677364$-->Перезвонить</button>
+                                                            <input type="hidden" .value="0" id="hidden_callback"
+                                                                name="hidden__callback"></div>
+                                                        <div class="ncc-cf__cell">
+                                                            <div class="ncc-cf__table">
+                                                                <div class="ncc-cf__row"><label
+                                                                        class="ncc-cf__cell ncc-cf__header"
+                                                                        for="transition_phoneComment"><!--?lit$7238677364$-->Комментарий</label>
+                                                                </div>
+                                                                <div class="ncc-cf__row">
+                                                                    <div class="ncc-cf__cell"><textarea wrap="off"
+                                                                            rows="2" cols="80" maxlength="2000"
+                                                                            id="transition_phoneComment"
+                                                                            name="transition_phoneComment">                                    </textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </ncc-cf-fieldset></ncc-cf-adjourn-panel></td>
+                                </tr>
+                                <tr id="acf_p1" class="panel">
+                                    <td colspan="2" style="height: auto;"><input class="button" data-action-type="save"
+                                            id="refusal" name="refusal" type="button" value="Отказ">
+
+                                        <input class="button" data-action-type="save" id="finish" name="finish"
+                                            type="button" value="Завершить">
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
